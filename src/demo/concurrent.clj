@@ -1,11 +1,13 @@
 (ns demo.concurrent
   (:gen-class))
 (defn Example []
-  (def names (ref []))
+  (def names
+    (ref [])
+  )
   (defn change [newname]
-   ;;  (dosync
+    (dosync
      (alter names conj newname))
-;;   )
+  )
   (change "John")
   (change "Mark")
   (println @names))
