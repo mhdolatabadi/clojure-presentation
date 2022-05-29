@@ -1,1 +1,1 @@
-["^ ","~$hello-world",["^ ","~:row",1,"~:col",1,"~:fixed-arities",["~#set",[0]],"~:name","^0","~:ns","~$user","~:top-ns",null],"~:filename","/home/mohammadhossein/codes/clojure/demo/src/demo/hello-world.clj"]
+["^ ","~$fib",["^ ","~:row",1,"~:col",1,"~:fixed-arities",["~#set",[1]],"~:name","^0","~:ns","~$user","~:top-ns",null,"~:arities",["^ ","~i1",["^ ","~:ret",["^4",["~:number","~:nat-int","~:pos-int"]]]]],"~:filename","/home/mohammadhossein/codes/clojure/demo/src/demo/fibonacci.clj"]
